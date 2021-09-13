@@ -1,21 +1,21 @@
-#Vitaly Soroko
+# Vitaly Soroko
 
-#Contacts
+# Contacts
 * **Phone:** +375336611142
 * **Email:** noanswer16@mail.ru
 * **City:** Minsk,Belarus
 
-#About me
+# About me
 Goal-oriented, fast learner,  team worker. I believe that the most important thing in life is the development of both personal and professional skills.
 
-#My skills
+# My skills
 * HTML
 * CSS
 * JavaScript
 * React
 * Git
 
-#Code example
+# Code example
 ```
 const bubbleSort = arr => {
 for (let i = 0, endI = arr.length - 1; i < endI; i++) {
@@ -33,7 +33,7 @@ return arr;
 ```
 
 
-#Education
+# Education
 * **University:**
     * Belarusian National Technical University, Hydraulic engineering
 * **Courses:**
@@ -44,5 +44,5 @@ return arr;
 * React way of samurai (*Youtube*)
 * RS SCHOOL (*in progress*)
 
-#English
+# English
 **A2** (I am studying English myself to improve the level)
