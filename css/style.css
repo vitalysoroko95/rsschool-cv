@@ -1,0 +1,133 @@
+.aside ul{
+    list-style-type: none;
+}
+.container {
+    display: flex;
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.photo img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding-bottom: 5px;
+
+}
+
+
+.aside {
+    display: block;
+    width: 27%;
+    background-color: #C0D8DE;
+    padding-top: 20px;
+
+}
+.name{
+    padding-bottom: 0;
+}
+.name .position{
+    padding-top: 0;
+    font-family: Poppins, serif;
+    text-align: center;
+}
+.aside section{
+    font-family: Poppins, serif;
+    padding-top: 20px;
+    letter-spacing: 0.06em;
+    line-height: 25px;
+
+}
+
+
+
+.aside h1 {
+    text-align: center;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.005em;
+    color: #242424;
+
+}
+
+.aside h2 {
+    font-family: Poppins, serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #242424;
+    text-align: center;
+    border: solid 1px;
+
+}
+
+
+.main {
+    width: 73%;
+    margin: 0 auto;
+    background: #E4E6E7;
+}
+
+.wrapper-content {
+    margin: 0 20px ;
+
+}
+
+.wrapper-content h2 {
+    font-family: Poppins, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #242424;
+
+}
+
+.wrapper-content h3{
+    font-family: Poppins, serif;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.wrapper-content section{
+    font-family: Poppins, serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+}
+.codeExample pre {
+
+    background-color: darkgrey;
+    padding: 10px;
+
+}
+
+.footer{
+
+}
+.rsSchoolLogo img {
+    height: 70px;
+}
+
+.gitHub img {
+    height: 70px;
+}
+
+.youtube img {
+    height: 70px;
+}
+
+.footer div {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 20px;
+
+}
