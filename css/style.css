@@ -1,4 +1,4 @@
-.aside ul{
+li{
     list-style-type: none;
 }
 .container {
@@ -23,7 +23,7 @@
 
 .aside {
     display: block;
-    width: 27%;
+    width: 30%;
     background-color: #C0D8DE;
     padding-top: 20px;
 
@@ -41,6 +41,7 @@
     padding-top: 20px;
     letter-spacing: 0.06em;
     line-height: 25px;
+    margin: 0 auto;
 
 }
 
@@ -63,6 +64,9 @@
     color: #242424;
     text-align: center;
     border: solid 1px;
+    width: 70%;
+    margin: 0 auto;
+
 
 }
 
