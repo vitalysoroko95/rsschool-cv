@@ -19,8 +19,8 @@ li{
     display: block;
     width: 80%;
     margin: 0 auto;
-    border-radius: 50%;
-    padding-bottom: 5px;
+    border-radius: 100%;
+
 
 }
 
@@ -190,6 +190,8 @@ li{
 .project-item:hover{
     background-color: rgba(0, 120, 201, 0.7);
     cursor: pointer;
+    color: #ffff;
+    transition: 0.4ms;
 }
 
 .wrapper-content {
