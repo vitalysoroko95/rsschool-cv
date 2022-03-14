@@ -4,11 +4,15 @@ li{
 .container {
     display: flex;
     width: 900px;
+    height: 100vh;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(46, 112, 163, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(46, 112, 163, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(46, 112, 163, 0.2);
 }
 
 .photo img {
@@ -23,25 +27,23 @@ li{
 
 .aside {
     display: block;
-    width: 30%;
-    background-color: #C0D8DE;
+    width: 25%;
+    background-color: #00395F;
     padding-top: 20px;
+    color: #FFFFFF;
 
 }
-.name{
-    padding-bottom: 0;
-}
-.name .position{
-    padding-top: 0;
-    font-family: Poppins, serif;
-    text-align: center;
-}
+
 .aside section{
-    font-family: Poppins, serif;
     padding-top: 20px;
-    letter-spacing: 0.06em;
     line-height: 25px;
     margin: 0 auto;
+    font-family: Calibri, serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
 
 }
 
@@ -49,73 +51,176 @@ li{
 
 .aside h1 {
     text-align: center;
-    font-family: Roboto, serif;
+    font-family: Calibri, serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
     letter-spacing: 0.005em;
-    color: #242424;
 
 }
 
 .aside h2 {
-    font-family: Poppins, serif;
-    font-style: normal;
-    font-weight: bold;
-    color: #242424;
-    text-align: center;
-    border: solid 1px;
     width: 70%;
     margin: 0 auto;
 
 
 }
 
+.icon{
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.contacts li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   align-content: center;
+}
+
+.phone-img {
+    background-image: url('/assets/phone.svg');
+}
+.mail-img {
+    background-image: url('/assets/mail.svg');
+}
+.city-img {
+    background-image: url('/assets/location_on.svg');
+}
+
+.skills li{
+    text-align: start;
+}
+.language li{
+    text-align: start;
+}
 
 .main {
-    width: 73%;
+    width: 75%;
     margin: 0 auto;
-    background: #E4E6E7;
+    font-family: Calibri, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.main h2{
+    font-family: Calibri, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #00395F;
+    text-transform: uppercase;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Calibri, serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #00395F;
+    text-transform: uppercase;
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    align-content: center;
+}
+
+
+
+.title-logo::after{
+    content: " ";
+    background: #00395F;
+    position: absolute;
+    width: 2px;
+    height: 290px;
+    float: left;
+    right: 19px;
+    top: 25px;
+}
+
+.title-logo{
+    width: 40px;
+    height: 40px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 50px;
+}
+
+.projects-logo::after{
+    content: " ";
+    background: #00395F;
+    position: absolute;
+    width: 2px;
+    height: 200px;
+    float: left;
+    right: 19px;
+    top: 27px;
+}
+
+.education-logo{
+    background-image: url('/assets/education.svg');
+    
+}
+
+
+
+.projects-logo{
+    background-image: url('/assets/work.svg');
+}
+.project-item{
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+
+    
+}
+.project-item:hover{
+    background-color: rgba(0, 120, 201, 0.7);
+    cursor: pointer;
 }
 
 .wrapper-content {
-    margin: 0 20px ;
-
+    margin: 0 20px 30px 60px  ;
+    font-family: Calibri, serif;
 }
 
-.wrapper-content h2 {
-    font-family: Poppins, serif;
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background: #242424;
-
+.years{
+    font-size: 15px;
+    padding: 0;
+    margin: 5px;
 }
 
-.wrapper-content h3{
-    font-family: Poppins, serif;
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: 0.03em;
-    color: #000000;
-}
-.wrapper-content section{
-    font-family: Poppins, serif;
-    font-style: normal;
-    letter-spacing: 0.03em;
-}
-.codeExample pre {
 
-    background-color: darkgrey;
-    padding: 10px;
-
+.projects-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .footer{
-
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
+
+
 .rsSchoolLogo img {
     height: 70px;
 }
@@ -128,10 +233,3 @@ li{
     height: 70px;
 }
 
-.footer div {
-    position: relative;
-    display: block;
-    float: left;
-    margin: 20px;
-
-}

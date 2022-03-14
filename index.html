@@ -12,15 +12,18 @@
 <div class="container">
     <div class="aside">
         <div class="photo"><img src="assets/images/profilePhoto.jpg" alt="profilephoto"></div>
-        <div class="name"><h1>Vitaly Soroko</h1>
-            <div class="position">Junior Frontend Developer</div>
-        </div>
+        
+        <section class="aboutme"><h2>About me</h2>
+            <p>Goal-oriented, fast learner, team worker. I believe that the most important thing in life is the
+                development
+                of both personal and professional skills.</p>
+        </section>
 
         <section class="contacts"><h2>Contacts</h2>
             <ul>
-                <li>Phone: +375336611142</li>
-                <li>Email: noanswer16@mail.ru</li>
-                <li>City: Minsk, Belarus</li>
+                <li><div class="phone-img icon"></div>+375336611142</li>
+                <li><div class="mail-img icon"></div>noanswer16@mail.ru</li>
+                <li><div class="city-img icon"></div>Minsk, Belarus</li>
             </ul>
         </section>
 
@@ -30,79 +33,96 @@
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-                <li>React</li>
+                <li>Typescript</li>
+                <li>React/Redux</li>
+                <li>Webpack</li>
                 <li>Git</li>
             </ul>
         </section>
+
+        <section class="language">
+            <h2>Language</h2>
+            <ul>
+                <li>Russian: Native</li>
+                <li>English: A2+</li>
+            </ul>
+        </section>
+
+
     </div>
     <div class="main">
         <div class="wrapper-content">
-            <section class="aboutme"><h2>About me</h2>
-                <p>Goal-oriented, fast learner, team worker. I believe that the most important thing in life is the
-                    development
-                    of both personal and professional skills.</p>
-            </section>
+            <div class="name">
+                <h1>Vitaly Soroko</h1>
+                <div class="position">Junior Frontend Developer</div>
+            </div>
+
             <section class="education">
-                <h2>Education</h2>
+                <div class="title-container">
+                    <div class = "title-logo education-logo"></div>
+                    <h2>Education experiences</h2>
+                </div>
+              
                 <h3>University :</h3>
                 <ul>
                     <li>
-                        Belarusian National Technical University, Hydraulic engineering
+                    <p class="years">2013 to 2018:</p>
+                    Belarusian National Technical University, Hydraulic engineering
                     </li>
                 </ul>
 
                 <h3>Courses :</h3>
                 <ul>
-                    <li>HTML Academy
+                    <li>
+                        <p class="years">2021:</p>
+                        HTML Academy
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>JavaScript</li>
                         </ul>
                     </li>
-                    <li>React</li>
-                    <li>Redux</li>
-                    <li>RS SCHOOL (in progress)</li>
-                </ul>
-
+                    <li>
+                        <p class="years">2021-until now:</p>
+                        RS SCHOOL (stage#1, stage#2)</li>
+              </ul> 
             </section>
-            <section class="codeExample">
-                <h2>Code example</h2>
-                <pre> <code>function getMiddle(s)
-    {
-     return s.substr(Math.ceil(s.length/2-1),s.length % 2 === 0 ? 2 :1);
-    }    </code></pre>
-            </section>
+            
+            <section class="projects">
+                <div class="title-container">
+                    <div class = "title-logo projects-logo"></div>
+                    <h2>My projects</h2>
+                </div>
+              
+               <div class="projects-container">
+                <div class="project-item">
+                    <a href="https://momentum-vs.netlify.app/" target="_blank"><img src="assets/momentum.png" width="150" 
+                    height="150" alt="momentum"></a>
+                <p class="project-info">HTML+CSS+JS</p>
+            </div>
+        
+               <div class="project-item">
+                <a href="https://mishaplx.github.io/RS-Lang-App/" target="_blank"><img src="assets/rs-lang.png" width="150" 
+                height="150" alt="rs-lang"></a>
+                <p class="project-info">React/redux + Webpack</p>
+            </div>
 
+                <div class="project-item">
+                    <a href="https://snow-game.netlify.app/" target="_blank"><img src="assets/snow-game.png" width="150" 
+                    height="150" alt="snow-game"></a>
+                    <p class="project-info">Typescript + Webpack</p>
+                </div>
+           </div>
 
-            <section class="language">
-                <h2>English</h2>
-                <ul>
-                    <li>A2</li>
-                </ul>
-            </section>
-        </div>
-        <footer class="footer">
-            <ul>
-                <li>
-                    <div class="gitHub"><a href="https://github.com/vitalysoroko95"><img src="assets/images/gitlogo.png"
-                                                                                         alt="githublogo"></a></div>
-                </li>
-                <li>
-                    <div class="year">© 2021</div>
-                </li>
-                <li>
-                    <div class="youtube"><a href="#"><img src="assets/images/youtube.svg" alt="youtubelogo"></a></div>
-                </li>
-                <li>
-                    <div class="rsSchoolLogo"><a href="https://rs.school/js/"><img src="assets/images/rs_school_js.svg"
-                                                                                   alt="rsschool"></a></div>
-                </li>
-            </ul>
-
-
-        </footer>
+           <footer class="footer">
+                    <div class="gitHub"><a href="https://github.com/vitalysoroko95"><img src="assets/images/gitlogo.png" alt="githublogo"></a></div>
+                    <div class="youtube"><a href="https://www.youtube.com/watch?v=2G-xBC8FHcI&ab_channel=VSSS"><img src="assets/images/youtube.svg" alt="youtubelogo"></a></div>
+                    <div class="rsSchoolLogo"><a href="https://rs.school/js/"><img src="assets/images/rs_school_js.svg" alt="rsschool"></a></div>
+           </footer>
+        </section>  
     </div>
+</div>
 </div>
 </body>
 </html>
+
