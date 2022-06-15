@@ -3,163 +3,256 @@
   <head>
     <meta charset="UTF-8" />
     <title>Vitaly Soroko</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div class="container">
-      <div class="aside">
-        <div class="photo">
-          <img src="assets/images/profilePhoto.jpg" alt="profilephoto" />
+      <header>
+        <div class="logo">
+          <a href="/"
+            ><svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              version="1.1"
+              viewBox="0 0 32 32"
+              height="3rem"
+              width="3rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13.632 5.289c-0.613 0.129-1.823 0.565-2.662 0.984-1.275 0.613-1.759 0.968-2.921 2.13s-1.517 1.646-2.13 2.921c-1.646 3.373-1.646 6.6 0 10.005 0.613 1.291 0.952 1.759 2.13 2.921 1.178 1.178 1.63 1.501 2.921 2.13 1.969 0.936 2.921 1.162 5.002 1.162s3.034-0.226 5.002-1.162c1.275-0.613 1.727-0.952 2.921-2.13 1.178-1.194 1.517-1.646 2.13-2.921 0.774-1.63 1-2.388 1.178-4.002l0.113-1h-3.195l-0.21 1.243c-1.017 6.471-8.907 9.069-13.587 4.47-3.792-3.712-2.969-10.005 1.678-12.732 0.871-0.516 2.63-1.049 3.437-1.049h0.532v-3.227l-0.597 0.016c-0.339 0-1.113 0.113-1.743 0.242zM14.213 9.645c-3.421 0.92-5.648 4.325-5.067 7.745 0.662 3.792 4.212 6.39 7.891 5.761 3.776-0.645 6.39-4.212 5.761-7.859-0.71-4.115-4.647-6.713-8.585-5.648z"
+              ></path>
+            </svg>
+            <span>Portfolio</span></a
+          >
         </div>
-
-        <section class="aboutme">
-          <h2>About me</h2>
-          <p>
-            Goal-oriented, fast learner, team worker. I believe that the most
-            important thing in life is the development of both personal and
-            professional skills.
-          </p>
-        </section>
-
-        <section class="contacts">
-          <h2>Contacts</h2>
-          <ul>
-            <li>
-              <div class="phone-img icon"></div>
-              +375336611142
-            </li>
-            <li>
-              <div class="mail-img icon"></div>
-              noanswer16@mail.ru
-            </li>
-            <li>
-              <div class="city-img icon"></div>
-              Minsk, Belarus
-            </li>
+        <div class="navbar-container">
+          <ul class="navbar-menu">
+            <li><a href="#about">About me</a></li>
+            <li><a href="#projects">My projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contacts">Contacts</a></li>
           </ul>
+        </div>
+      </header>
+      <main>
+        <section class="about" id="about">
+          <div class="about-info">
+            <h1>Welcome To My Personal Portfolio</h1>
+            <p>
+              Hello! My name is Vitaly and i'm Frontend developer! I believe
+              that the most important thing in life is the development of both
+              personal and professional skills. Goal-oriented, fast learner,
+              team worker.
+            </p>
+          </div>
+          <div class="background-animation">
+            <img src="assets/bg-animation.gif" alt="" />
+          </div>
         </section>
+        <section class="projects" id="projects">
+          <h2>Projects</h2>
+          <div class="projects-container">
+            <div class="project-item">
+              <img class="project-img" src="assets/projects/e-commerce.png" />
+              <p class="project-name">E-commerce</p>
+              <p class="project-info">
+                Every web developer needs to know how to build an ECommerce
+                website using React. This e-commerce application will include
+                modern design and animations, the ability to add and edit
+                products on the go using a Sanity, all advanced cart, and
+                checkout functionalities, and most importantly, the complete
+                integration with Stripe.
+              </p>
+              <div class="project-stack">
+                <h3>Stack</h3>
+                <ul class="project-stack-list">
+                  <li>ReactJS</li>
+                  <li>NextJS</li>
+                  <li>Sanity</li>
+                  <li>Stripe</li>
+                </ul>
+              </div>
+              <div class="buttons">
+                <button class="project-btn">
+                  <a
+                    href="https://github.com/vitalysoroko95/vs-ecommerce"
+                    target="_blank"
+                    >View code</a
+                  >
+                </button>
+                <button class="project-btn">
+                  <a href="https://vs-ecommerce.vercel.app/" target="_blank"
+                    >Visit site</a
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="project-item">
+              <img class="project-img" src="assets/projects/realt-app.png" />
+              <p class="project-name">Realt Estate App</p>
+              <p class="project-info">
+                Realtor - an amazing Real Estate Application. With rental homes
+                and for-sale properties, advanced property filtering, property
+                details page with an image carousel.
+              </p>
+              <div class="project-stack">
+                <h3>Stack</h3>
+                <ul class="project-stack-list">
+                  <li>ReactJS</li>
+                  <li>NextJS</li>
+                  <li>ChakraUI</li>
+                </ul>
+              </div>
+              <div class="buttons">
+                <button class="project-btn">
+                  <a
+                    href="https://github.com/vitalysoroko95/realt-app"
+                    target="_blank"
+                    >View code</a
+                  >
+                </button>
+                <button class="project-btn">
+                  <a href="https://realt-app-vs.vercel.app/" target="_blank"
+                    >Visit site</a
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="project-item">
+              <img class="project-img" src="assets/projects/github-api.png" />
+              <p class="project-name">Github Api</p>
+              <p class="project-info">
+                Github Api - a simple application to search the profile and view
+                the list of repositories of GitHub users.
+              </p>
+              <div class="project-stack">
+                <h3>Stack</h3>
+                <ul class="project-stack-list">
+                  <li>React</li>
+                  <li>TypeScript</li>
+                  <li>Redux</li>
+                </ul>
+              </div>
+              <div class="buttons">
+                <button class="project-btn">
+                  <a
+                    href="https://github.com/vitalysoroko95/startup-summer-2022"
+                    target="_blank"
+                    >View code</a
+                  >
+                </button>
+                <button class="project-btn">
+                  <a href="https://github-api-vs.netlify.app/" target="_blank"
+                    >Visit site</a
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="project-item">
+              <img class="project-img" src="assets/projects/rsschool.png" />
+              <p class="project-name">RSello</p>
+              <p class="project-info">
+                A project management system is an application that helps an
+                individual in a team or group of developers accomplish their
+                tasks.
+              </p>
+              <div class="project-stack">
+                <h3>Stack</h3>
+                <ul class="project-stack-list">
+                  <li>React</li>
+                  <li>TypeScript</li>
+                  <li>Redux</li>
+                </ul>
+              </div>
+              <div class="buttons">
+                <button class="project-btn">
+                  <a
+                    href="https://github.com/PavelMPS/project-management-app"
+                    target="_blank"
+                    >View code</a
+                  >
+                </button>
+                <button class="project-btn">
+                  <a
+                    href="https://helpful-custard-f4251a.netlify.app/"
+                    target="_blank"
+                    >Visit site</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="skills" id="skills">
+          <h2>Skills</h2>
 
-        <section class="skills">
-          <h2>My skills</h2>
-          <ul>
+          <ul class="skills-list">
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
-            <li>Typescript</li>
-            <li>React/Redux</li>
-            <li>Webpack</li>
-            <li>Git</li>
+          </ul>
+          <ul class="skills-list">
+            <li>TypeScript</li>
+            <li>ReactJS</li>
+            <li>NextJS</li>
+            <li>React Native</li>
+          </ul>
+          <ul class="skills-list">
+            <li>Redux</li>
+            <li>Figma</li>
+            <li>Github</li>
           </ul>
         </section>
-
-        <section class="language">
-          <h2>Language</h2>
+        <section class="education" id="education">
+          <h2>Education</h2>
           <ul>
-            <li>Russian: Native</li>
-            <li>English: A2+</li>
+            University :
+            <li>
+              2013 to 2018:<br />
+              Belarusian National Technical University<br />
+              Hydraulic engineering
+            </li>
+          </ul>
+          <div class="certificates-container">
+            <h3>Courses :</h3>
+            <div class="certificates">
+              <div class="certificate">
+                <h3 class="year">2022</h2>
+                <a href="https://app.rs.school/certificate/i8zqtzfv">JAVASCRIPT/FRONT-END 2021Q3 (JAVASCRIPT)</a>
+              </div>
+            <div class="certificate">
+              <h3 class="year">2022</h2>
+              <a href="https://app.rs.school/certificate/79oh9vr3" target="_blank">THE ROLLING SCOPES SCHOOL REACT 2022 Q1 (JAVASCRIPT)</a>
+            </div>
+          </div>
+            
+          </div>
+        </section>
+        <section class="contacts" id="contacts">
+          <h2>Contacts</h2>
+          <ul>
+            <li>Location: Minsk</li>
+            <li>Call: <a href="tel:+375336611142">+375336611142 </a></li>
+            <li>Email: <a href="mailto:vitalysoroko95@gmail.com">vitalysoroko95@gmail.com</a></li>
           </ul>
         </section>
-      </div>
-      <div class="main">
-        <div class="wrapper-content">
-          <div class="name">
-            <h1>Vitaly Soroko</h1>
-            <div class="position">Junior Frontend Developer</div>
-          </div>
-
-          <section class="education">
-            <div class="title-container">
-              <div class="title-logo education-logo"></div>
-              <h2>Education experiences</h2>
-            </div>
-
-            <h3>University :</h3>
-            <ul>
-              <li>
-                <p class="years">2013 to 2018:</p>
-                Belarusian National Technical University, Hydraulic engineering
-              </li>
-            </ul>
-
-            <h3>Courses :</h3>
-            <ul>
-              <li>
-                <p class="years">2021:</p>
-                HTML Academy
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                </ul>
-              </li>
-              <li>
-                <p class="years">2021-until now:</p>
-                RS SCHOOL (stage#1, stage#2)
-              </li>
-            </ul>
-          </section>
-
-          <section class="projects">
-            <div class="title-container">
-              <div class="title-logo projects-logo"></div>
-              <h2>My projects</h2>
-            </div>
-
-            <div class="projects-container">
-              <div class="project-item">
-                <a href="https://momentum-vs.netlify.app/" target="_blank"
-                  ><img
-                    class="projects-img"
-                    src="assets/momentum.png"
-                    alt="momentum"
-                /></a>
-                <p class="project-info">HTML+CSS+JS</p>
-              </div>
-
-              <div class="project-item">
-                <a
-                  href="https://mishaplx.github.io/RS-Lang-App/"
-                  target="_blank"
-                  ><img
-                    class="projects-img"
-                    src="assets/rs-lang.png"
-                    alt="rs-lang"
-                /></a>
-                <p class="project-info">React/redux + Webpack</p>
-              </div>
-
-              <div class="project-item">
-                <a href="https://snow-game.netlify.app/" target="_blank"
-                  ><img
-                    class="projects-img"
-                    src="assets/snow-game.png"
-                    alt="snow-game"
-                /></a>
-                <p class="project-info">Typescript + Webpack</p>
-              </div>
-            </div>
-
-            <footer class="footer">
-              <div class="gitHub">
-                <a href="https://github.com/vitalysoroko95"
-                  ><img src="assets/images/gitlogo.png" alt="githublogo"
-                /></a>
-              </div>
-              <div class="youtube">
-                <a
-                  href="https://www.youtube.com/watch?v=2G-xBC8FHcI&ab_channel=VSSS"
-                  ><img src="assets/images/youtube.svg" alt="youtubelogo"
-                /></a>
-              </div>
-              <div class="rsSchoolLogo">
-                <a href="https://rs.school/js/"
-                  ><img src="assets/images/rs_school_js.svg" alt="rsschool"
-                /></a>
-              </div>
-            </footer>
-          </section>
-        </div>
-      </div>
+      </main>
+      <footer>
+        <ul>
+          <li><a href="https://github.com/vitalysoroko95" target="_blank">Github</a></li>
+          <li><a href="https://www.instagram.com/vitaliysoroko" target="_blank">Instagram</a></li>
+          <li><a href="https://www.linkedin.com/in/vitaliy-soroko-59a684171/" target="_blank">Linkedin</a></li>
+        </ul>
+      </footer>
     </div>
   </body>
 </html>
