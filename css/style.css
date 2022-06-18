@@ -195,8 +195,10 @@ section h2 {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.background-animation img {
-  width: 400px;
+.photo img {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
   height: 400px;
 }
 
@@ -334,6 +336,13 @@ section h2 {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.education h3 {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .certificates {
   display: flex;
   gap: 10px;
@@ -399,6 +408,7 @@ section h2 {
 footer {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border-top: 1px solid rgba(255, 255, 255, 0.253);
   height: 100px;
   margin-top: 30px;
@@ -411,4 +421,13 @@ footer ul {
 
 footer ul a:hover {
   color: #d0bb57;
+}
+.rs-logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  align-content: center;
+}
+.rs-logo-img {
+  width: 130px;
 }
